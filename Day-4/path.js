@@ -1,7 +1,0 @@
-const path = require("path") 
-//console.log(__filename) 
-// //console.log(__dirname)
-const filepath= path.join("folder", "student","data.txt")
-console.log("joint path", filepath)
-const basename= path.basename(filepath)
-console.log(basename)
